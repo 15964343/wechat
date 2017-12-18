@@ -6,4 +6,10 @@
 （6）git merge：将远端拿到的数据和本地进行merge
 （7）git pull = git fetch + git merge
 
-如何添加tortoisegit svn sshkey？
+如何让git将版本库长久保存？
+当你配置好git后，在C:\Documents and Settings\Administrator\目录下有一个.gitconfig 的文件，
+里面会有你先前配好的name 和email，只需在下面加一行：
+[credential] 
+     helper = store 
+	 
+这样以后再连接时，就不用再输入用户名和密码了！	 
