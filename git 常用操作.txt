@@ -1,0 +1,9 @@
+（1）git clone：下载版本库
+（2）git commit：加本地改动提交到本地版本库
+（3）git checkout：在多个版本库之间切换
+（4）git push：将本地版本库提交到远端版本库
+（5）git fetch：从remote端拿最新的版本库
+（6）git merge：将远端拿到的数据和本地进行merge
+（7）git pull = git fetch + git merge
+
+如何添加tortoisegit svn sshkey？
